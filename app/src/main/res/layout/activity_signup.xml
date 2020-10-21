@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:textSize="24dp"
+        android:gravity="center"
+        android:text="InstagApp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:hint="Username"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Password"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Fullname"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"
+        android:id="@+id/edtFullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:background="@color/colorButton"
+        android:textColor="@android:color/white"
+        android:id="@+id/signup"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textLogin"
+        android:textColor="@android:color/white"
+        android:text="Already have an account? Log in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
